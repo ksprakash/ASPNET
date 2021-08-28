@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<MvcCoreProject.Models.Employee>
+@{
+    ViewBag.Title = "Employee";
+}
+<h2>Films</h2>
+<table class="table">
+    <tr>
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Role</th>
+        
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.employeeid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.employeename)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.role)
+            </td>
+            
+        </tr>
+    }
+</table>

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\KSP\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\KSP\\.nuget\\packages"
+    ]
+  }
+}
